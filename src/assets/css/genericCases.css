@@ -1,0 +1,89 @@
+/* Forceful styling for the close button */
+.p-dialog-header-close {
+    background: none !important; /* No background */
+    border: none !important; /* Remove borders */
+    width: 24px !important; /* Fixed size */
+    height: 24px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    cursor: pointer !important; /* Pointer on hover */
+    appearance: none !important; /* Normalize appearance */
+    padding: 0 !important;
+    position: relative !important; /* For positioning fallback text */
+  }
+  
+  /* Cross icon styles */
+  .p-dialog-header-close-icon {
+    display: inline-block !important;
+    position: relative !important;
+    width: 14px !important; /* Icon size */
+    height: 14px !important;
+  }
+  
+  .p-dialog-header-close-icon::before,
+  .p-dialog-header-close-icon::after {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 50% !important;
+    width: 100% !important;
+    height: 2px !important; /* Line thickness */
+    background-color: black !important; /* Visible color for the cross */
+    transform-origin: center !important;
+    transform: translateX(-50%) rotate(45deg) !important; /* Diagonal line 1 */
+  }
+  
+  .p-dialog-header-close-icon::after {
+    transform: translateX(-50%) rotate(-45deg) !important; /* Diagonal line 2 */
+  }
+  
+  /* Add fallback text at the bottom */
+  .p-dialog-header-close::after {
+    content: 'Close' !important; /* Fallback text */
+    position: absolute !important;
+    bottom: -16px !important; /* Position below the button */
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    font-size: 10px !important; /* Small, unobtrusive text */
+    color: black !important; /* Match the icon color */
+    opacity: 1 !important; /* Fully visible */
+    pointer-events: none !important; /* Non-interactive */
+  }
+  
+  /* Hover state (no changes to cross, text remains visible) */
+  .p-dialog-header-close:hover .p-dialog-header-close-icon::before,
+  .p-dialog-header-close:hover .p-dialog-header-close-icon::after {
+    background-color: black !important; /* Same as normal state */
+  }
+  
+  .p-dialog-header-icons{
+    background-color: rgb(79, 201, 218) !important;
+    border-radius: 10px;
+  }
+
+  .customHover {
+    text-decoration: none !important; /* Ensures no underline by default */
+    
+  }
+  
+  .customHover:hover {
+    text-decoration: underline !important; /* Adds underline on hover */
+    color: blue !important; 
+  }
+  .p-datatable .p-datatable-thead > tr > th {
+    text-align: center !important;
+  }
+  .p-datatable th {
+    text-align: center !important;
+  }  
+
+  @media (max-width: 800px) {
+    .view-files-btn {
+      font-size: 14px;  /* Adjust font size */
+      padding: 8px 12px; /* Adjust padding */
+      width: 100%;       /* Make button full-width if needed */
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+.custom-modal .modal-header {
+    background-color: #f8f9fa;
+    border-bottom: none;
+    padding-top: 20px;
+  }
+  
+  .custom-modal .modal-body {
+    padding: 30px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+  }
+  
+  .custom-modal .modal-footer {
+    background-color: #f8f9fa;
+    border-top: none;
+  }
+  
+  .custom-button {
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+  
+  .custom-modal .modal-header .modal-title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-modal .modal-header .modal-title i {
+    font-size: 1.5rem;
+  }
+  
+  /* Hover effects for buttons */
+  .custom-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  /* Modal animations */
+  .custom-modal.fade .modal-dialog {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .custom-modal.show .modal-dialog {
+    transform: scale(1);
+  }
+  

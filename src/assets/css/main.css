@@ -1,0 +1,523 @@
+@import 'primereact/resources/themes/saga-blue/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
+
+.card .addfund {
+  /* display: flex; */
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  min-height: 70px;
+  padding: 0 2.25rem;
+  color: var(--bs-card-cap-color);
+  background-color: var(--bs-card-cap-bg);
+  border-bottom: 1px dashed var(--bs-card-border-color);
+}
+
+.form-select .input-field {
+  padding: 7px;
+  border-radius: 7px;
+  border: 1px solid #99b4ce;
+  font-size: 13px;
+  max-height: 30px;
+  margin: 3px;
+}
+
+
+.table {
+  background-color: #ffffff;
+  /* White background for the table */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for depth */
+}
+
+.table-light {
+  background-color: #f8f9fa;
+  /* Light gray background for header */
+}
+
+.table-light th {
+  background-color: #e9ecef;
+  /* Slightly darker gray for better contrast */
+}
+
+.table-light th,
+.table-light td {
+  padding: 12px 15px;
+  /* Padding for better spacing */
+}
+
+.table-light th {
+  border-bottom: 2px solid #dee2e6;
+  /* Border between header and body */
+}
+
+.table tbody tr {
+  transition: background-color 0.3s;
+  /* Smooth hover effect */
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+  /* Light gray background on hover */
+}
+
+.text-danger {
+  color: #dc3545;
+  /* Bootstrap danger color */
+}
+
+.text-success {
+  color: #28a745;
+  /* Bootstrap success color */
+}
+
+.text-primary {
+  color: #007bff;
+  /* Bootstrap primary color */
+}
+
+.fs-5 {
+  font-size: 1.25rem;
+  /* Larger font size for better readability */
+}
+
+
+/* Card styling */
+.card {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Checkbox styling */
+.form-check-input {
+  height: 20px;
+  width: 20px;
+  /* transition: transform 0.2s ease; */
+}
+
+.form-check-input:checked {
+  transform: scale(1.1);
+}
+
+/* Table row hover effect */
+.hover-bg-gray:hover {
+  background-color: #f8f9fa;
+}
+
+/* Responsive table styling */
+.table-responsive {
+  overflow-x: auto;
+}
+
+/* Table header styling */
+.table thead {
+  background-color: #f1f1f1;
+}
+
+/* Additional custom styles */
+.border-gray-200 {
+  border-color: #e2e8f0;
+}
+
+.text-gray-700 {
+  color: #4a5568;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.bg-primary {
+  background-color: #007bff !important;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+}
+
+.bg-opacity-75 {
+  opacity: 0.75;
+}
+
+.container {
+  max-width: 400px;
+  /* Adjust as needed */
+  margin: auto;
+  /* Center the form */
+}
+
+.small-body {
+  font-size: 0.875rem;
+  padding: 0.75rem;
+}
+
+.small-radio {
+  width: 15px;
+  height: 15px;
+}
+
+
+/* client details css  */
+
+.compact-modal-content {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #007BFF;
+}
+
+.input-group-text.password-toggle {
+  background-color: #e0f7ff;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary.custom-submit-btn {
+  background-color: #007BFF;
+  border-color: #007BFF;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary.custom-submit-btn:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+.btn-secondary.custom-cancel-btn {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.btn-secondary.custom-cancel-btn:hover {
+  background-color: #545b62;
+  border-color: #545b62;
+}
+
+input.form-control:focus,
+select.form-control:focus {
+  box-shadow: 0px 0px 5px rgba(0, 123, 255, 0.5);
+  border-color: #007BFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* AddPayment.css */
+.add-payment-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007bff;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.input-group select,
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.payment-button {
+  width: 100%;
+  padding: 10px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.payment-button:hover {
+  background-color: #0056b3;
+}
+
+
+/* themes.css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.payment-container {
+  background-color: #daf2ff;
+  border: 1px solid #eaeaea;
+}
+
+.payment-label {
+  color: #333;
+}
+
+.payment-options {
+  gap: 1rem;
+}
+
+.payment-option {
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.payment-option:hover {
+  transform: scale(1.05);
+  background-color: #f1f8ff;
+  border-color: #007bff;
+}
+
+.active-option {
+  border-color: #007bff;
+  background-color: #e6f3ff;
+}
+
+.payment-option .icon {
+  color: #007bff;
+}
+
+.payment-option label {
+  font-size: 1rem;
+}
+
+.payment-option input:checked+label {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.payment-option {
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid #ddd;
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-option:hover {
+  background-color: #e9f7ff;
+  border-color: #007bff;
+  transform: scale(1.05);
+}
+
+.active-option {
+  border: 2px solid #007bff;
+  background-color: #e0f3ff;
+}
+
+.payment-option .icon {
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.payment-option label {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.payment-option:hover label {
+  color: #007bff;
+}
+
+.custom-radio {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.custom-radio:hover {
+  border-color: #007bff;
+  background-color: #f0f8ff;
+}
+
+.selected-radio {
+  border-color: #007bff;
+  background-color: #e7f3ff;
+  font-weight: bold;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  /* Ensure the sidebar takes the full viewport height */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  background-color: #f8f9fa;
+  /* Optional: Set a background color */
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  /* Optional: Add a border for clarity */
+}
+
+.main-content {
+  flex: 1;
+  padding: 1rem;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  .sider-navbar {
+    display: none;
+  }
+}
+
+
+
+/* .activemembers{
+  border-radius: "5px";
+  box-shadow : "0 4px 8px rgba(0, 0, 0, 0.2)";
+  padding: "6px 12px";
+  font-size: "12px";
+  color: "#003F73",
+}
+.suspendedmembers{
+  border-radius: "5px";
+  box-shadow : "0 4px 8px rgba(0, 0, 0, 0.2)";
+  padding: "6px 12px";
+  font-size: "12px";
+  color: "#003F73",
+}
+.addmember{
+  border-radius: "5px";
+  box-shadow: "0 4px 8px rgba(0, 0, 0, 0.2)";
+  padding: "6px 12px";
+  font-size: "12px";
+  color: "#003F73",
+} */
+
+/* General Container Styles */
+
+
+/* Button Hover Effects */
+.btn:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Add Member Button Specific Styling */
+.add-member-btn {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+  min-width: 120px;
+}
+
+/* Media Query for Medium Screens (>=768px) */
+@media (min-width: 768px) {
+  .form-item {
+    flex-direction: row;
+    /* Switch to row layout for larger screens */
+    align-items: center;
+    /* Center vertically */
+    gap: 2rem;
+    /* Add spacing between sections */
+  }
+
+  /* Center buttons and title horizontally */
+  .btn-container {
+    flex-direction: row;
+    /* Keep buttons side by side */
+  }
+}
+
+/* Media Query for Smaller Screens (<768px) */
+@media (max-width: 767px) {
+  .form-item {
+    flex-direction: column;
+    /* Stack items vertically */
+    align-items: center;
+    /* Center items horizontally */
+  }
+
+  /* Buttons stack vertically */
+  .btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* Add spacing between buttons */
+    width: 100%;
+    /* Ensure buttons are full width */
+  }
+
+  /* Buttons become full-width */
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Title Adjustments */
+  .modal-title {
+    font-size: 14px;
+    /* Slightly smaller font for small screens */
+    text-align: center;
+  }
+}

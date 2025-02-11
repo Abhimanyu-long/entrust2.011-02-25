@@ -1,0 +1,72 @@
+/* Custom styles for the DataTable search header */
+.table-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 10px; */
+    background-color: #eff2f5;
+    border-bottom: 1px solid #d8d8d8;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Search Input Field */
+.p-input-icon-left .p-inputtext {
+    width: 300px; /* Set desired width */
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d8d8d8;
+    transition: border-color 0.3s ease;
+}
+
+.p-input-icon-left .p-inputtext:focus {
+    /* border-color: #0098CA; */
+    box-shadow: none;
+}
+
+/* PrimeReact DataTable styles */
+.p-datatable {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p-datatable .p-datatable-header {
+    /* background-color: #0098CA; */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.p-datatable thead th {
+    background-color: #f8f9fa;
+    color: #495057;
+    text-align: left; 
+    padding: 10px;
+}
+
+.p-datatable tbody tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.p-datatable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.p-datatable .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background-color: #4fc9da;
+    color: #ffffff;
+    border-radius: 50%;
+    border: #003F73;
+}
+
+/* Adjust receipt button */
+.p-button {
+    background-color: #4fc9da;
+    border: none;
+    border-radius: 20px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+.p-button:hover {
+    background-color: #003F73;
+}

@@ -1,0 +1,360 @@
+
+/* main page Background Image */
+.loginpage {
+    position: relative;
+    width: 100%;
+    background-image: url("./../Images/bg-images/entrust-2-bg-new.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    height: 100dvh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginpage .logo{
+    position: absolute;
+    width: 45%;
+    height: auto;
+    left: 5%;
+    bottom: 20%;
+}
+
+.loginpage  .login-box {
+    position: absolute;
+    width: 500px;
+    right: 5%;
+    bottom: 20%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 39px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    margin-top: 87px;
+}
+
+.loginpage  .login-box .logo-box {
+    display: block;
+    margin: 0 auto 1.5rem auto; 
+    max-width: 100%; 
+    height: auto; 
+}
+.sideimg {
+    display: block;
+    margin: 0 auto 1.5rem auto; 
+    max-width: 100%; 
+    height: auto; 
+}
+/* Form Elements */
+.form-control {
+    font-size: 12px;
+}
+
+.submitbtn {
+    width: 100%; 
+    padding: 0.75rem; 
+    background-color: #0098CA; 
+    color: white;
+    border: none; 
+    border-radius: 15px; 
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+/* Hover effect */
+.submitbtn:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+/* Focus effect */
+.submitbtn:focus {
+    outline: none; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+.accreditationimg {
+    width: 100%; 
+    height: auto;
+}
+
+/* Footer Links */
+.footer-mobile a {
+    color: #0098CA; 
+    text-decoration: none; 
+    padding: 0 8px; 
+    font-size: 13px;
+}
+
+.footer-mobile a:hover {
+    color: grey;
+}
+
+
+
+/* backup page css */
+/* this is for new to entrust login css */
+.create-account-container {
+    width: 100%;
+    background-color: transparent;
+    padding: 10px; 
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.create-account-container .new-to-entrust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    width: 100%;
+}
+
+.create-account-container .new-to-entrust .entrust-box-hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #000; 
+    margin: 0; 
+}
+
+.create-account-container .new-to-entrust .entrust-box-span {
+    white-space: nowrap;
+    padding: 0 10px;
+}
+
+.create-account-container .create-entrust{
+   text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #0098CA;
+    border-radius: 0.5rem;
+    color:  #0098CA;
+    cursor: pointer;
+}
+
+.create-account-container .create-entrust:hover{
+    color: white;
+    background: #0098CA;
+}
+
+
+/* Small devices (phones, 321px to 480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .loginpage {
+        position: relative;
+        width: 100%;
+        background-image: url("./../Images/bg-images/entrust-2-bg-new.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        height: 100dvh; 
+    }
+    
+    .loginpage .logo{
+        display: none;
+    }
+    
+    .loginpage  .login-box {
+        position: relative;
+        width: 94%;
+
+        right: 0%;
+        bottom: 5%;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 39px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        padding: 2rem 2rem;
+        margin-top: 87px;
+    }
+    .submitbtn {
+        width: 100%;
+        padding: 0.60rem;
+        background-color: #0098CA;
+        color: white;
+        border: none;
+        border-radius: 15px;
+        font-size: 1rem;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+    .loginpage  .login-box .logo-box {
+        display: block;
+        margin: 0 auto 1.5rem auto; 
+        max-width: 100%; 
+        height: auto; 
+    }
+    .sideimg {
+        display: block;
+        margin: 0 auto 1.5rem auto; 
+        max-width: 100%; 
+        height: auto; 
+    }
+}
+
+
+
+/* Media Queries */
+
+/* Extra Small Devices (320px and below) */
+@media only screen and (max-width: 320px) {
+    .loginpage {
+        background-image: url("./../Images/bg-images/entrust-2-bg-new.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        height: 100dvh; 
+    }
+    
+    .loginpage .logo {
+        display: none;
+    }
+
+    .loginpage .login-box {
+        position: relative;
+        width: 90%;
+        right: 0;
+        bottom: 5%;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        padding: 1.5rem;
+    }
+}
+
+/* Small Devices (Phones, 321px to 480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    .loginpage .login-box {
+        width: 94%;
+        bottom: 5%;
+    }
+}
+
+/* Medium Devices (Tablets, 481px to 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .loginpage .login-box {
+        width: 75%;
+        bottom: 10%;
+        padding: 2rem;
+    }
+
+    .loginpage .logo {
+        display: none;
+    }
+
+    .create-account-container .create-entrust {
+        padding: 0.75rem;
+        font-size: 0.9rem;
+    }
+    .loginpage .login-box {
+        /* position: absolute; */
+        width: 500px;
+        right: 12%;
+        bottom: 20%;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 39px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        padding: 2rem;
+        margin-top: 87px;
+    }
+}
+
+/* Large Tablets/Small Laptops (769px to 1024px) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .loginpage .login-box {
+        width: 60%;
+        bottom: 15%;
+        padding: 2.5rem;
+    }
+
+    .loginpage .logo {
+        display: none;
+    }
+
+    .submitbtn {
+        font-size: 1.1rem;
+    }
+    .loginpage .login-box .logo-box {
+        display: block;
+        margin: 0 auto 1.5rem auto;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Large Devices (Laptops/Desktops, 1025px and above) */
+@media only screen and (min-width: 1025px) {
+    .loginpage .login-box {
+        width: 500px;
+        bottom: 20%;
+        padding: 2rem;
+    }
+
+    .loginpage .logo {
+        width: 45%;
+    }
+}
+/* Samsung Galaxy Tab SM-T561 (800px x 1280px) */
+@media only screen and (min-width: 768px) and (max-width: 820px) and (orientation: portrait),
+       only screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+
+    .loginpage .login-box {
+        width: 70%;
+        bottom: 42%;
+        padding: 2.2rem;
+        border-radius: 30px;
+    }
+
+    /* .loginpage .logo {
+        width: 40%;
+    } */
+
+    .submitbtn {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    .footer-mobile a {
+        font-size: 12px;
+    }
+
+    .create-account-container .create-entrust {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 820px) and (orientation: portrait),
+       only screen and (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+
+    .loginpage .login-box {
+        width: 70%;
+        bottom: 42%;
+        padding: 2.2rem;
+        border-radius: 30px;
+    }
+
+    .loginpage .login-box .logo-box {
+        display: block;
+        margin: 0 auto 1.5rem auto;
+        max-width: 50%; /* Ensure it scales properly */
+        height: auto;
+    }
+
+    .submitbtn {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    .footer-mobile a {
+        font-size: 12px;
+    }
+
+    .create-account-container .create-entrust {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+}

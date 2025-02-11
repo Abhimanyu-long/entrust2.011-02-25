@@ -1,0 +1,146 @@
+/* Custom styles for the DataTable search header */
+.table-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* padding: 10px; */
+    background-color: #eff2f5;
+    border-bottom: 1px solid #d8d8d8;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Search Input Field */
+.p-input-icon-left .p-inputtext {
+    width: 300px; /* Set desired width */
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #d8d8d8;
+    transition: border-color 0.3s ease;
+}
+
+.p-input-icon-left .p-inputtext:focus {
+    /* border-color: #0098CA; */
+    box-shadow: none;
+}
+
+/* PrimeReact DataTable styles */
+.p-datatable {
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.p-datatable .p-datatable-header {
+    /* background-color: #0098CA; */
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.p-datatable thead th {
+    background-color: #f8f9fa;
+    color: #495057;
+    text-align: left;
+    padding: 10px;
+}
+
+.p-datatable tbody tr {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.p-datatable tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.p-datatable .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+    background-color: #0098CA;
+    color: #ffffff;
+    border-radius: 50%;
+}
+
+/* Adjust receipt button */
+.p-button {
+    background-color: #0098CA;
+    border: none;
+    border-radius: 20px;
+    padding: 0.25rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+.p-button:hover {
+    background-color: #0078A0;
+}
+.p-component-overlay {
+    background-color: rgba(252, 245, 245, 0.4);
+    transition-duration: 0.2s;
+}
+
+
+/* Overlay for Popup */
+.countdown-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7); /* Dark, semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1050;
+    backdrop-filter: blur(4px); /* Adds a blur effect to the background */
+  }
+  
+  /* Popup Container */
+  .countdown-popup-content {
+    background: linear-gradient(145deg, #ffffff, #f0f4f8); /* Subtle gradient */
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Depth with shadow */
+    text-align: center;
+    max-width: 350px;
+    width: 90%;
+    animation: fadeIn 0.3s ease-in-out; /* Smooth animation */
+  }
+  
+  /* Popup Header */
+  .countdown-popup-content h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4fc9da; /* Vibrant color for the header */
+    margin-bottom: 1rem;
+  }
+  
+  /* Countdown Number */
+  .countdown-number {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff6f61; /* Highlight countdown in a bold color */
+    margin-top: 1rem;
+    animation: pulse 1s infinite; /* Add a pulse effect */
+  }
+  
+  /* Pulse Animation */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* Fade-in Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,246 @@
+/* AddDirectCase.css */
+/* .accordion-button::after {
+  color: white;
+}
+.accordion-button::before {
+  color: white;
+} */
+/* General Form Styling */
+.form-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #343a40;
+}
+
+/* Accordion Styling */
+.custom-accordion .accordion-header {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.custom-accordion .accordion-body {
+  padding: 0.75rem 1rem;
+}
+
+/* Input Field Styling */
+.input-sm {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Button Styling */
+.custom-btn {
+  background-color: #007bff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.custom-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  background-color: #f8f9fa;
+  padding: 1rem;
+  border-left: 1px solid #e9ecef;
+}
+
+.sidebar-links .nav-link {
+  color: #007bff;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.sidebar-links .nav-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* File Upload Section */
+.file-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.file-list li {
+  padding: 0.3rem 0;
+  color: #333;
+  font-size: 0.85rem;
+}
+/* sidebar.css */
+.nav-link {
+    color: #333;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #f8f9fa;
+    color: #007bff;
+  }
+  
+  .nav-link i {
+    color: #6c757d;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover i {
+    color: #007bff;
+  }
+  
+
+
+
+  /* case details */
+
+  .timer-container {
+    /* background: linear-gradient(135deg, #6e7f80 0%, #c1d3d4 100%); */
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    /* transition: transform 0.3s, box-shadow 0.3s; */
+  }
+  
+  .timer-container:hover {
+    transform: translateY(-5px);
+    /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25); */
+  }
+  
+  .time-text {
+    font-size: 1.2rem;
+  }
+  
+  .text-accent {
+    color: #3aaa30; /* Bright accent color for emphasis */
+    font-weight: bold;
+  }
+  
+  .case-title {
+    font-size: 1.5rem !important;
+    color: #0098ca
+  }
+
+  .timer-controls {
+    flex-grow: 1;
+    justify-content: space-between;
+  }
+  
+  .timer-btn {
+    background-color: #ff5733; /* Bright coral color for the button */
+    border: none;
+    border-radius: 30px;
+    padding: 12px 20px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: bold;
+    /* transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s; */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .timer-btn:hover {
+    background-color: #e74c3c; /* Slightly darker coral on hover */
+    /* transform: scale(1.05); */
+    /* box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); */
+  }
+  
+  .timer-display {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .timer-message {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+
+ .task-details-container span {
+  margin-left: 15px;
+
+}
+
+
+/* styles.css */
+.highlight {
+  background-color: #f0f8ff;  /* Light blue background */
+  transition: background-color 0.3s ease-in-out;
+}
+.accordion-button::after {
+  color: white !important; /* Force the arrow to be white */
+}
+
+.accordion-button {
+  color: white; /* Text color */
+  background-color: #4fc9da; /* Optional: Background color */
+  border: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #c1d0e0; /* Optional: Background color when expanded */
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* Remove focus outline */
+}
+
+.accordion-button::after {
+  color: white !important; /* Ensure pseudo-element arrow is white */
+}
+
+.accordion-button.collapsed::after {
+  color: white !important; /* Arrow remains white when collapsed */
+}
+
+.accordion-button svg {
+  fill: white !important; /* For cases where the arrow uses an SVG */
+}
+
+.accordion-button {
+  color: white; /* Ensure text is also white */
+  background-color: #4fc9da; /* Optional: Add a dark background */
+  border: none; /* Remove border if not needed */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #4fc9da; /* Optional: Change background when expanded */
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* Remove focus outline for cleaner design */
+}
+.custom-accordion-header {
+  color: #fff !important; /* Ensure text color is white */
+}
+
+.custom-accordion-header::after {
+  color: #fff !important; /* Ensure arrow color is white */
+}
+
+
+
+
+/* Media Query for case */
+
+@media (max-width: 576px) {
+  .responsive-modal .modal-dialog {
+    max-width: 95% !important;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .nav-tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}

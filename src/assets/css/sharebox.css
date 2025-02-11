@@ -1,0 +1,10 @@
+/* sharebox details */
+
+.shareboxDetailTags .shareboxDetailTagsList {
+    cursor: pointer;
+}
+
+.shareboxDetailTags .shareboxDetailTagsList:hover {
+    text-decoration: underline;
+    color: blue; /* Corrected the syntax for "text color" */
+}

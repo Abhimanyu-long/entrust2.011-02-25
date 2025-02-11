@@ -1,0 +1,20 @@
+/* Default for larger screens (3 cards per row) */
+.contact-card {
+    flex: 1 1 calc(33.333% - 1rem); /* 3 cards in a row */
+    max-width: calc(33.333% - 1rem);
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem; /* Spacing between rows */
+  }
+  
+  /* Mobile screens (below 768px): 1 card per row */
+  @media (max-width: 768px) {
+    .contact-card {
+      flex: 1 1 100%; /* Take full width */
+      max-width: 100%; /* Take full width */
+    }
+  }
+  

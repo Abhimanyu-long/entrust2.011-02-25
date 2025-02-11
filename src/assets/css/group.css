@@ -1,0 +1,91 @@
+/* General Button Styling */
+.btn-primary, .btn-outline-primary {
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #99c5f5;
+    color: white;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #6daaeb;
+    color: white;
+   
+  }
+  
+  /* Card Styling */
+  .card {
+    border-radius: 10px;
+    /* border: 2px solid #0098CA; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card h6 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Tab Navigation */
+  .nav-tabs .nav-link {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    color: #0098CA;
+  }
+  
+  .nav-tabs .nav-link:hover {
+    border-color: #8ab4e0;
+    color: #959aa0;
+  }
+  
+  /* Add rounded corners for images */
+  .img-fluid {
+    border-radius: 50%;
+  }
+  
+  /* Hover effect on cards */
+  .card:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Custom hover on tab links */
+  .nav-link.active {
+    border-bottom: 3px solid #0098CA;
+  }
+
+/* Styling the navigation items */
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #0098CA; /* Inactive tab color */
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover */
+}
+
+.nav-link.active {
+  color: #ffffff; /* Active tab text color */
+  background-color: #0098CA; /* Active tab background color */
+  box-shadow: 0 4px 10px rgba(0, 152, 202, 0.4); /* Adds a subtle shadow to the active tab */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.nav-link:hover {
+  color: #ffffff; /* Change text color on hover for inactive tabs */
+  background-color: #006F9A; /* Darken background color on hover */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+  
+  

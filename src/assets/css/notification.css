@@ -1,0 +1,49 @@
+.notifications-container {
+  /* max-width: 600px;
+  margin: 20px auto;
+  padding: 20px; */
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.notification-accordion .accordion-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  color: #4fc9da;
+  margin-bottom: 20px;
+}
+
+.user-list {
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.user-checkbox {
+  margin-bottom: 8px;
+}
+
+.action-buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.notify-all-checkbox {
+  margin-left: 10px;
+}
+
+.selected-summary {
+  font-size: 1rem;
+  color: #000;
+  margin-top: 20px;
+}

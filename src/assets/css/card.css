@@ -1,0 +1,147 @@
+.MuiDivider-root .MuiDivider-fullWidth .css-paag5m-MuiDivider-root {
+  display: none;
+  }
+  .MuiDivider-root {
+    display: none;
+    }
+
+    .MuiButtonBase-root {
+      background-color: #419cd6;;
+      }
+
+
+      /* General Styling for Cards */
+.card .dashboard-card{
+  background: linear-gradient(145deg, #005a8f 0%, #66c2ff 100%);
+  border-radius: 15px;
+  padding: 15px;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .dashboard-card{
+  transform: scale(1.02);
+}
+
+/* Card Title Styling */
+.card-title .dashboard-title{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 10px 0;
+}
+
+.card-title span .dashboard-title{
+  font-weight: 700;
+  color: #fff;
+}
+
+/* Progress Bar Styling */
+.progress {
+  height: 8px;
+  border-radius: 8px;
+  background: #44487a;
+}
+
+.progress-bar {
+  border-radius: 8px;
+  transition: width 0.5s ease;
+}
+
+/* Button Styling */
+.btn {
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 6px 15px rgba(0, 152, 202, 0.5);
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  box-shadow: 0 8px 20px rgba(0, 152, 202, 0.6);
+  background-color: #004a75;
+}
+
+/* Badge Styling */
+.badge {
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+/* Responsive Styling for Different Screen Sizes */
+@media (max-width: 1200px) {
+  .card .dashboard-card{
+    padding: 12px;
+  }
+
+  .btn {
+    font-size: 0.95rem;
+    padding: 8px 16px;
+  }
+
+  .progress-bar {
+    height: 7px;
+  }
+}
+
+@media (max-width: 992px) {
+  .card .dashboard-card{
+    padding: 10px;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
+  .card-title span .dashboard-title{
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card .dashboard-card{
+    padding: 8px;
+  }
+
+  .btn {
+    font-size: 0.85rem;
+    padding: 5px 10px;
+  }
+
+  .card-title span .dashboard-title{
+    font-size: 1.2rem;
+  }
+
+  .progress-bar {
+    height: 6px;
+  }
+}
+
+@media (max-width: 576px) {
+  .card .dashboard-card{
+    padding: 5px;
+  }
+
+  .btn {
+    font-size: 0.8rem;
+    padding: 4px 8px;
+  }
+
+  .card-title span .dashboard-title{
+    font-size: 1rem;
+  }
+
+  .progress-bar {
+    height: 5px;
+  }
+}

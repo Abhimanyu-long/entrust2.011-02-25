@@ -1,0 +1,84 @@
+/* General styles for row container */
+
+
+/* Card container styles */
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background: white;
+}
+
+/* Responsive styles */
+@media (min-width: 576px) {
+  .col-md-6 {
+    min-width: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-6,
+  .col-lg-6 {
+    min-width: 50%;
+  }
+  .col-md-12 {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-6,
+  .col-xl-6 {
+    min-width: 50%;
+  }
+  .col-lg-12 {
+    min-width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-6,
+  .col-xxl-3 {
+    min-width: 25%;
+  }
+  .col-xxl-6 {
+    min-width: 50%;
+  }
+}
+
+/* Additional card height adjustments for smaller screens */
+@media (max-width: 768px) {
+  .card {
+    min-height: auto;
+  }
+  .card .card-body {
+    padding: 10px;
+  }
+}
+
+/* Scrollable container for smaller devices */
+.alerts-container {
+  max-height: 355px;
+  overflow-y: auto;
+}
+
+.carousel {
+  height: auto;
+  max-height: 355px;
+}
+
+/* Adjustments for button sizes */
+button.btn {
+  padding: 8px 16px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+/* Responsive grid gap adjustments */
+@media (max-width: 576px) {
+  .row {
+    gap: 10px;
+  }
+}

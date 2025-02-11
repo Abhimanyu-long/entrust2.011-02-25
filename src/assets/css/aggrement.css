@@ -1,0 +1,145 @@
+
+.aggrement {
+  background-image: url("./../Images/bg-images/entrust-2-bg-new.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.agreement-container {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.7); 
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.agreement-header {
+  background-color: "#0098ca";
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.agreement-body {
+  padding: 15px;
+  height: 82vh;
+  height: 82dvh;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+  border-radius: 12px;
+}
+
+.signature-panel {
+  padding: 20px;
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+}
+
+.signature-draw, .signature-name, .signature-upload {
+  margin-bottom: 15px;
+}
+
+
+
+.clear-btn, .use-name-btn, .agree-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clear-btn:hover, .use-name-btn:hover, .agree-btn:hover {
+  background-color: #45a049;
+}
+
+input[type="text"], input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.signature-panel {
+  padding: 20px;
+  /* background-color: rgba(255, 255, 255, 0.7);  */
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #333;
+}
+
+.signature-draw,
+.signature-name,
+.signature-upload {
+  margin-bottom: 20px;
+}
+
+.signature-box {
+  width: 100%;
+  height: 150px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="text"],
+input[type="file"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #0098CA; /* Applied color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #007a9f;
+}
+
+.clear-btn,
+.use-name-btn,
+.agree-btn {
+  display: block;
+  margin-top: 10px;
+}
+
+.agree-btn {
+  width: 100%;
+  font-size: 16px;
+}
+
+
+
+.aggrement-box {
+  width: 100%;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  max-height: 90vh; 
+  overflow-y: auto;
+
+}
+
+

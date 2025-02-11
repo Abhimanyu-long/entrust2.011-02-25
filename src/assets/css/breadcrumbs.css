@@ -1,0 +1,45 @@
+/* Breadcrumbs.css */
+
+.breadcrumb-container {
+    padding: 1rem 0;
+  }
+  
+  .breadcrumb-title {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .breadcrumb-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .breadcrumb-separator {
+    margin: 0 0.5rem;
+    color: #6c757d; /* Gray color for separator */
+  }
+  
+  .breadcrumb-link {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    font-weight: 500;
+  }
+  
+  .breadcrumb-link:hover {
+    text-decoration: underline;
+  }
+  
+  .breadcrumb-current {
+    color: #6c757d; /* Gray color for current page */
+    font-weight: 500;
+  }
+  

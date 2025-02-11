@@ -1,0 +1,242 @@
+/* Styling for Profile Component
+.profile-card {
+  border-radius: 10px;
+  border: 1px solid #eaeaea;
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+}
+.background{
+  background-image: url("./../Images/Screenshot\ from\ 2024-10-23\ 15-37-34.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #ffffff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.profile-image img:hover {
+  transform: scale(1.1);
+}
+
+.Editimage:hover{
+  transform: scale(1.1);
+}
+
+.profile-name {
+  font-weight: 700;
+  color: #343a40;
+}
+
+.profile-bio {
+  font-size: 0.95rem;
+  color: #6c757d;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  color: #0077b5;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #0056b3;
+}
+
+.profile-details {
+  font-size: 0.9rem;
+}
+
+.profile-details p {
+  margin-bottom: 0.75rem;
+  color: #343a40;
+}
+
+.profile-btn {
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  color: #343a40;
+  border-color: #343a40;
+}
+
+.form-control {
+  box-shadow: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+.condition-box {
+  width: 100%;
+  max-width: 700px;
+  background-color: rgba(255, 255, 255, 0.7); 
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  max-height: 90vh; 
+  overflow-y: auto;
+
+}
+
+/* CloseButton.css 
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 1000;
+  color: #000;
+  transition: color 0.3s ease; /* Smooth transition for color change 
+}
+
+.close-button:hover {
+  color: "#ffffff";
+  background: "linear-gradient(145deg, #005a8f 0%, #66c2ff 100%)";
+}
+
+.close-button:focus {
+  outline: none; /* Removes the default focus outline 
+  
+} */
+
+
+
+/* Profile Container */
+.profile-container {
+  background: linear-gradient(215deg, #84c4401a, #00b0ea17);
+  min-height: 89vh;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0px;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #ffffff;
+  max-width: 800px;
+  width: 100%;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Image */
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  /* border: 4px solid #0097ca1a; */
+  border: 4px solid #0098ca;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+}
+
+.edit-image-label {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #0098ca;
+  color: #fff;
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Profile Name and Job Title */
+.profile-name {
+  color: #333;
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-top: 20px;
+}
+
+.profile-job {
+  color: #777;
+  font-size: 1rem;
+}
+
+/* Info Boxes */
+.info-box {
+  padding: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.info-label {
+  color: #0098ca;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.info-value {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+/* Form Labels */
+.form-label {
+  font-weight: bold;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(90deg, #0098ca, #00d4ff);
+  border: none;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 10px 30px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(90deg, #00d4ff, #0098ca);
+  transform: scale(1.05);
+}
+
+.btn-outline-secondary {
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #6c757d;
+  border: none;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #5a6268;
+  transform: scale(1.05);
+}
